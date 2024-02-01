@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landscape Website</title>
+</head>
+<body>
+
+    <header>
+        <h1>Landscape Paradise</h1>
+        <p>Your source for breathtaking landscapes</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Landscape Paradise</h2>
+        <p>Discover the beauty of nature through our stunning landscapes.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <!-- Add your landscape images here -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to capturing and sharing the beauty of landscapes from around the world.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 . All rights reserved.</p>
+    </footer>
+</body>
+</html>
